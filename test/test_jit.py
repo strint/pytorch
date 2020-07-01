@@ -6808,6 +6808,8 @@ a")
                 print(fn.name)
                 return fn
         scripted = test_sc(fn)
+        print("---run scripted_fn---")
+        print(scripted(torch.tensor(1), torch.tensor(2)))
 
     def test_python_frontend(self):
         def fn(x, y, z):
