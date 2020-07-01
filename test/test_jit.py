@@ -6766,6 +6766,7 @@ a")
             return x
 
         ast = torch.jit.frontend.get_jit_def(fn, fn.__name__)
+        print(ast)
         self.assertExpected(str(ast))
 
     def test_python_frontend_py3(self):

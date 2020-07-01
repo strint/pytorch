@@ -8,7 +8,7 @@
 
 ## PyTorch
 
-.cover
+*.cover
 .coverage
 .gradle
 .hypothesis
